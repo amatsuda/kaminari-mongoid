@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
   build:
     strategy:
-      fail-fast: true
+      # fail-fast: true
 
       # see https://docs.mongodb.com/mongoid/current/tutorials/mongoid-installation/ for supported versions
       matrix:
